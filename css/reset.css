@@ -1,0 +1,30 @@
+
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	text-decoration: none;
+}
+
+html, body {
+	width: 100%;
+}
+body {
+	font: normal 12px/1.6em "microsoft yahei",tahoma,simsun;
+}
+
+ul, li {
+	list-style: none;
+}
+
+.clearfix::before,
+.clearfix::after {
+	display: block;
+	content: ".";
+	height: 0;
+	visibility: hidden;
+	clear: both;
+}
