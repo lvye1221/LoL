@@ -163,3 +163,53 @@ nav ul li a span{
 .user:hover .userselect{
 	display: block;
 }
+
+.layer{
+	width: 100%;
+	height: 190px;
+	padding: 20px 0;
+	background: rgba(0,0,0,0.7);
+	position: absolute;
+	top: 90px;
+	left: 0;
+	/*display: none;*/
+	z-index: 88;
+}
+
+
+#box{
+	width: 1240px;
+	height: 190px;
+	margin: 0 auto;
+}
+.box-list{
+	width: 600px;
+	height: 190px;
+	margin-left: 200px;
+}
+.box-list ul{
+	width: 120px;
+	float: left;
+	text-align: center;
+	line-height: 26px;
+	
+}
+.box-list ul a{
+	color: #F5F5F5;
+	font-size: 14px;
+}
+.box-list ul a:hover{
+	color:blanchedalmond;
+}
+.box-list ul a i{
+	width: 14px;
+	height: 14px;
+	display: inline-block;
+	background: url(../img/spr-v2.png) no-repeat -107px 0 ;
+}
+.box-list ul a b{
+	width: 14px;
+	height: 14px;
+	display: inline-block;
+	background: url(../img/spr-v2.png) no-repeat -129px 0 ;
+}
